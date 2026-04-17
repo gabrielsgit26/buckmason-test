@@ -1,7 +1,9 @@
 import { useState } from "react"
 
 function ProductModal({ product, onClose, onAddToCart }) {
-  const [selectedSize, setSelectedSize] = useState(product?.sizes?.[0] || "")
+  const [selectedSize, setSelectedSize] = useState(
+    product?.selectedSize || product?.sizes?.[0] || ""
+  )
   const [qty, setQty] = useState(1)
 
   if (!product) return null

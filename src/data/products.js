@@ -1,0 +1,178 @@
+export const products = [
+  {
+    id: 1,
+    title: "Classic Tee",
+    subtitle: "Pima Curved Hem Tee",
+    price: 45,
+    category: "Tops",
+    color: "Black",
+    material: "100% Pima Cotton Jersey",
+    fit: "Standard fit",
+    madeIn: "Made in USA",
+    colorHex: "#1f1f1f",
+    sizes: ["S", "M", "L", "XL"],
+    image:
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
+    description:
+      "Soft heavyweight jersey tee with a clean crew neck and relaxed everyday fit.",
+    details: [
+      "Ribbed collar with reinforced neckline",
+      "Pre-washed for a broken-in feel",
+      "Clean tubular body construction",
+    ],
+  },
+  {
+    id: 2,
+    title: "White Oxford Shirt",
+    subtitle: "Mainstay Oxford Button-Down",
+    price: 85,
+    category: "Shirts",
+    color: "White",
+    material: "100% Cotton Oxford",
+    fit: "Tailored fit",
+    madeIn: "Imported",
+    colorHex: "#f6f6f4",
+    sizes: ["S", "M", "L", "XL"],
+    image:
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+    description:
+      "Crisp oxford shirt built for layering, office days, and weekend dinners.",
+    details: [
+      "Button-down collar with soft roll",
+      "Double-stitched side seams",
+      "Chest pocket with clean edge finish",
+    ],
+  },
+  {
+    id: 3,
+    title: "Slim Jeans",
+    subtitle: "Full Saddle Slim Straight",
+    price: 120,
+    category: "Bottoms",
+    color: "Blue",
+    material: "98% Cotton, 2% Elastane Denim",
+    fit: "Slim straight",
+    madeIn: "Made in USA",
+    colorHex: "#2d4f8f",
+    sizes: ["30", "32", "34", "36"],
+    image:
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
+    description:
+      "Mid-rise denim with subtle stretch and a modern slim silhouette.",
+    details: [
+      "Mid-rise with comfortable top block",
+      "Classic five-pocket construction",
+      "Washed indigo finish",
+    ],
+  },
+  {
+    id: 4,
+    title: "Chino Pants",
+    subtitle: "At Ease Chino",
+    price: 95,
+    category: "Bottoms",
+    color: "Khaki",
+    material: "100% Garment-Washed Cotton Twill",
+    fit: "Straight fit",
+    madeIn: "Imported",
+    colorHex: "#b9a27b",
+    sizes: ["30", "32", "34", "36"],
+    image:
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=800&q=80",
+    description:
+      "Tailored chinos in garment-washed cotton for a broken-in feel.",
+    details: [
+      "Flat front silhouette",
+      "Welt back pockets",
+      "Enzyme wash for softer hand feel",
+    ],
+  },
+  {
+    id: 5,
+    title: "Gray Hoodie",
+    subtitle: "Vintage Interloop Hoodie",
+    price: 110,
+    category: "Outerwear",
+    color: "Gray",
+    material: "Cotton Fleece Blend",
+    fit: "Relaxed fit",
+    madeIn: "Made in USA",
+    colorHex: "#8f8f8f",
+    sizes: ["S", "M", "L", "XL"],
+    image:
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80",
+    description:
+      "Brushed fleece hoodie with premium ribbing and a structured hood.",
+    details: [
+      "Double-layer hood construction",
+      "Rib cuffs and hem",
+      "Kangaroo pocket with bartack reinforcement",
+    ],
+  },
+  {
+    id: 6,
+    title: "Denim Jacket",
+    subtitle: "Nighthawk Trucker",
+    price: 150,
+    category: "Outerwear",
+    color: "Blue",
+    material: "14oz Cotton Denim",
+    fit: "Classic trucker fit",
+    madeIn: "Made in USA",
+    colorHex: "#35588f",
+    sizes: ["S", "M", "L", "XL"],
+    image:
+      "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?auto=format&fit=crop&w=800&q=80",
+    description:
+      "Classic trucker jacket cut from sturdy denim that softens over time.",
+    details: [
+      "Button-front closure with metal hardware",
+      "Front welt pockets and chest flaps",
+      "Durable contrast topstitching",
+    ],
+  },
+  {
+    id: 7,
+    title: "Merino Sweater",
+    subtitle: "Featherweight Merino Crew",
+    price: 135,
+    category: "Tops",
+    color: "Charcoal",
+    material: "100% Merino Wool",
+    fit: "Slim fit",
+    madeIn: "Imported",
+    colorHex: "#4e4f54",
+    sizes: ["S", "M", "L", "XL"],
+    image:
+      "https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=800&q=80",
+    description:
+      "Lightweight merino crewneck that layers cleanly under jackets.",
+    details: [
+      "Fine gauge knit texture",
+      "Ribbed collar, cuffs, and hem",
+      "Naturally breathable and temperature regulating",
+    ],
+  },
+  {
+    id: 8,
+    title: "Field Overshirt",
+    subtitle: "Field-Spec Utility Overshirt",
+    price: 125,
+    category: "Shirts",
+    color: "Olive",
+    material: "Cotton Herringbone Twill",
+    fit: "Workwear relaxed fit",
+    madeIn: "Imported",
+    colorHex: "#6f7456",
+    sizes: ["S", "M", "L", "XL"],
+    image:
+      "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?auto=format&fit=crop&w=800&q=80",
+    description:
+      "Workwear-inspired overshirt with durable twill and utility pockets.",
+    details: [
+      "Overshirt weight for year-round layering",
+      "Two utility chest pockets",
+      "Straight hem with side reinforcement",
+    ],
+  },
+]
